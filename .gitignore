@@ -1,0 +1,51 @@
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# macOS
+.DS_Store
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+DerivedData/
+*.moved-aside
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.xcscmblueprint
+build/
+
+# Models (use git-lfs)
+*.gguf
+*.bin
+*.trie
+models/*.gguf
+models/*.bin
+
+# Config & Runtime
+*.sock
+*.log
+engine.sock
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Build artifacts
+*.pkg
+*.dmg
+*.app
+dist/
+*.dSYM
