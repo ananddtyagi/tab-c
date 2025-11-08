@@ -1,0 +1,23 @@
+# General
+.DS_Store
+.idea/
+.vscode/
+
+# Rust
+/target/
+**/target/
+Cargo.lock
+
+# Models and large binaries
+models/
+*.gguf
+*.bin
+*.idx
+
+# macOS build artifacts
+mac/IME/IMEApp.xcodeproj/
+mac/IME/build/
+
+# Scripts outputs
+scripts/*.log
+
